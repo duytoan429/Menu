@@ -654,7 +654,7 @@ local CoreGui = getService("CoreGui")
 
 -- Interface Management
 
-local Dtoan = useStudio and script.Parent:FindFirstChild('Dtoan') or game:GetObjects("rbxassetid://10804731440")[1]
+local Dtoan = useStudio and script.Parent:FindFirstChild('Dtoan') or game:GetObjects("rbxassetid://103413991112283")[1]
 local buildAttempts = 0
 local correctBuild = false
 local warned
@@ -3996,4 +3996,5 @@ task.delay(4, function()
 end)
 
 return DtoanLibrary
+
 
